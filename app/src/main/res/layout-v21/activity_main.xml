@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/music_forge_logo_1">
+
+  <Button
+      android:id="@+id/register_btn"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/login_btn"
+      android:layout_marginBottom="17dp"
+      android:backgroundTint="@color/voilet_blue"
+      android:layout_marginLeft="30dp"
+
+
+      android:text="Register" />
+
+  <Button
+      android:id="@+id/login_btn"
+      android:layout_width="300dp"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_marginBottom="221dp"
+      android:backgroundTint="@color/voilet_blue"
+      android:layout_marginLeft="30dp"
+      android:text="Login" />
+
+</RelativeLayout>

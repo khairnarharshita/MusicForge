@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "115679780304",
+    "project_id": "musicforge-651d6",
+    "storage_bucket": "musicforge-651d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115679780304:android:43e0f84d31012e36feedd5",
+        "android_client_info": {
+          "package_name": "com.example.music_artist_collab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3fZ1p7Ea0u4t5fn2Ykz9v1GyP17jJxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

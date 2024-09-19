@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="purple">#986EE3</color>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="Blue">#072541</color>
+    <color name="voilet_blue">#656695</color>
+
+
+
+
+</resources>

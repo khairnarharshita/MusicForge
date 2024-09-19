@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RgisterActivity"
+    android:background="@drawable/music_forge_logo_1">
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textAlignment="center"
+     android:text="Register"
+     android:textSize="25sp"
+     android:textColor="@color/voilet_blue"
+     android:textStyle="bold"/>
+
+ <!-- Email -->
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:id="@+id/emailTtl">
+  <EditText
+      android:id="@+id/emailEt"
+      android:inputType="textEmailAddress"
+      android:hint="Email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+ </com.google.android.material.textfield.TextInputLayout>
+
+ <!-- Password -->
+ <com.google.android.material.textfield.TextInputLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_centerHorizontal="true"
+     android:layout_centerVertical="true"
+     android:id="@+id/passwordTtl"
+     android:layout_below="@id/emailTtl"
+     app:passwordToggleEnabled="true">
+  <EditText
+      android:id="@+id/passwordEt"
+      android:inputType="textPassword"
+      android:hint="Password"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+ </com.google.android.material.textfield.TextInputLayout>
+
+ <Button
+     android:id="@+id/registerBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Register"
+     android:layout_below="@+id/passwordTtl"
+     android:layout_centerHorizontal="true"
+android:backgroundTint="@color/voilet_blue"
+
+
+     />
+
+ <!-- Back Button -->
+ <Button
+     android:id="@+id/backBtn"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Back"
+     android:layout_below="@+id/registerBtn"
+     android:layout_centerHorizontal="true"
+android:backgroundTint="@color/voilet_blue"
+
+     />
+ <TextView
+     android:id="@+id/have_account_tv"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Already have an Account ? Login"
+     android:textAlignment="center"
+     android:layout_below="@+id/backBtn"
+     android:layout_marginTop="30dp"
+     android:textColor="@color/colorBlack"
+     android:textStyle="bold"
+     />
+
+</RelativeLayout>
